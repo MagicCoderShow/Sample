@@ -13,5 +13,6 @@ public class HashMapTest {
 	public static void main(String[] args) {
 		Map<Object,Object> map = new HashMap<Object,Object>();
 		map.put("key", "value");
+		map.put("keys", "values");
 	}
 }
