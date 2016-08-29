@@ -12,5 +12,6 @@ import java.util.Map;
 public class HashMapTest {
 	public static void main(String[] args) {
 		Map<Object,Object> map = new HashMap<Object,Object>();
+		map.put("keys", "values");
 	}
 }
