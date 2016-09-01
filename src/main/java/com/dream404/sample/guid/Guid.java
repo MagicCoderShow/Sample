@@ -1,5 +1,11 @@
 package com.dream404.sample.guid;
 
+/**
+ * GUID工具类
+ * @author 旭平
+ *
+ */
+@SuppressWarnings("static-access")
 public class Guid {
 
 	private final long workerId;
@@ -116,8 +122,7 @@ public class Guid {
 	}
 
 	public static void main(String[] args) {
-		Guid guid = new Guid(2);
-		Long id = guid.nextId();
-		System.out.println(id);
+		Thread td = new Thread();
+		td.getId();
 	}
 }
